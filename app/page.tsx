@@ -1,6 +1,6 @@
 import './globals.css'
 
-
+import Chart0 from '@/components/Chart0'
 
 
 export default function Dashboard() {
@@ -19,7 +19,7 @@ export default function Dashboard() {
         <section>
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Data Insights</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-
+        <Chart0 />
           </div>
         </section>
       </main>
